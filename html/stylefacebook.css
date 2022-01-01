@@ -1,0 +1,133 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#main
+{
+  width: 100%;
+  height: 100%;
+  color: blue;
+  background-color: skyblue;
+}
+#top
+{
+  width: 100%;
+  height: 15%;
+  color: black;
+  background-color: white;
+}
+#topleft
+{
+  padding: 5px;
+  width: 50%;
+  height: 100%;
+  color: white;
+  font-size: 10px;
+  float: left;
+  align-items: center;
+  background-color: #3B5998;
+}
+#topright
+{
+  width: 50%;
+  height: 100%;
+  color: white;
+  float: right;
+  font-size: 10px;
+  background-color: #3B5998;
+}
+#aw
+{
+  height: 30%;
+  width: 30%;
+  padding: 0;
+  margin: 1;
+}
+#a
+{
+  height: 30%;
+  width: 30%;
+  padding: 0;
+  margin: 1;
+}
+#s
+{
+  background-color: #4267B2;
+  border-color: #4267B2;
+  border-radius: 3px;
+}
+#mid
+{
+  width: 100%;
+  height: 75%;
+  color: white;
+  background-color: black;
+}
+#midleft
+{
+  width: 50%;
+  height: 100%;
+  background-color: #EBEDF0;
+  color: black;
+  float: left;
+}
+#midright
+{
+  width: 50%;
+  height: 100%;
+  background-color: #EBEDF0;
+  color: black;
+  font-size: 6px;
+  float: right;
+  margin: 0;
+  padding: 0;
+}
+#z
+{
+  height: 50%px;
+  width: 40%; 
+  padding: 0;
+  margin: 1.5;
+}
+#sc
+{
+  height: 50%px;
+  width: 40%;
+  padding: 0;
+  margin: 1.5;
+} 
+#q
+{
+  height: 50%px;
+  width: 40%;
+  padding: 0;
+  margin: 1.5;
+}
+#c
+{
+  height: 50%px;
+  width: 82%;
+  padding: 0;
+  margin: 1.5;
+}
+#v
+{
+  height: 50%px;
+  width: 82%;
+  padding: 0;
+  margin: 1.5;
+}
+#df
+{
+  background-color: #5D974A;
+  border-color: #5D974A;
+  border-radius: 5px;
+}
+#bottom
+{
+  width: 100%;
+  height: 10%;
+  background-color: #FFFFFF;
+}
