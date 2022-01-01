@@ -1,0 +1,46 @@
+
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Flying Text Animation</title>
+  <link rel="stylesheet" href="styleflying.css">
+</head>
+<body>
+  <section>
+    <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore mgna aliqua. Ut enim ad minim veniam, quis nosturd exercitation ullamoc laboris nisi ut aliqquip ex ea commodo consequet. Duis aute irure dolor in reprehendent in voluptate valit esse proident, sunt in culpa qui officia deserunt moltis anim id est laborum. Lore, ipsum dolor sit amet, cconsectetur adipising elit, sed do eiusmod tempor incididunt ut labore et dolore mgna alique. Ut enim ad minim veniam, quis nosturd exercitation ullamco laboris nisi ut aloquip ex ea commodo consequet. Duis aute irure dolor in reprehenderit in voluptate velit ease cillum dalore eu fugiat nulla pariatur. Excepteur sint occaecat cupidate non proident, sunt in culpa qui officia deserunt mollit anim id est lavorum.</p>
+  </section>
+     <script src="anime.min.js"></script>
+  <script>
+    const text=document.querySelector('.text');
+    text.innerHTML = text.textContent.replace(/\S/g, "<span>$&</span>");
+     const animation = anime.timeline({
+        targets : '.text span',
+        easing : 'easeInOutExpo',
+        loop : true, 
+      });
+      animation
+       .add({
+             rotate : function(){
+                return anime.random(-360,360) 
+             },
+            translateX : function(){
+               return anime.random(-500,500)
+             },
+            translateY : function(){
+               return anime.random(-500,500)
+             },
+             duration : 5000,
+              delay : anime.stagger(20),
+          })
+
+          .add({
+             rotate : 0,
+            translateX : 0,
+            translateY : 0,
+             duration : 5000,
+              delay : anime.stagger(20),
+          })
+  </script>
+</body>
+</html>
