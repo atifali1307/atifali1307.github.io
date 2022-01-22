@@ -55,6 +55,8 @@ section{
     margin-top: 1rem;
     font-size: 2rem;
     border-radius: 5rem;
+    transform: 1.5s;
+    
 }
 
 .btn i{
@@ -63,7 +65,9 @@ section{
 }
 
 .btn:hover{
-    background:var(--yellow);
+    box-shadow: 0 3px 0 #f9ca24 inset, 0 3px 30px 0 #f9ca24,
+                             0 3px 0 #f9ca24 inset, 0 3px 30px 0 #f9ca24;
+text-shadow: 0 0 3px #f9ca24,0 0 3px #f9ca24;
 }
 
 .heading{
@@ -130,10 +134,13 @@ header .navbar ul li a{
     color:#fff;
     font-size: 2rem;
     border-radius: 5rem;
+    transform: 1.5s;
 }
 
 header .navbar ul li a:hover{
-    background:var(--yellow);
+    box-shadow: 0 1px 0 #f9ca24 inset, 0 1px 10px 0 #f9ca24,
+                             0 1px 0 #f9ca24 inset, 0 1px 10px 0 #f9ca24;
+text-shadow: 0 0 3px #f9ca24,0 0 10px #f9ca24;
 }
 
 #menu{
@@ -291,6 +298,13 @@ header .navbar ul li a:hover{
     margin:2rem;
     overflow: hidden;
     cursor: pointer;
+    transform: 1.5s;
+}
+.portfolio .box-container .box:hover
+{
+    box-shadow: 0 3px 0 #f9ca24 inset, 0 3px 30px 0 #f9ca24,
+                             0 3px 0 #f9ca24 inset, 0 3px 30px 0 #f9ca24;
+    text-shadow: 0 0 3px #f9ca24,0 0 3px #f9ca24;
 }
 
 .portfolio .box-container .box img{
