@@ -109,7 +109,7 @@ header .user img{
 header .user .name{
     font-size: 3.5rem;
     color:#fff;
-    text-shadow: 0 0 3px #f9ca24,0 0 3px #f9ca24;
+    text-shadow: 0 0 4px #f9ca24,0 0 4px #f9ca24;
 }
 
 header .user .post{
