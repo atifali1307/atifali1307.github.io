@@ -109,6 +109,7 @@ header .user img{
 header .user .name{
     font-size: 3.5rem;
     color:#fff;
+    text-shadow: 0 0 3px #f9ca24,0 0 3px #f9ca24;
 }
 
 header .user .post{
@@ -281,6 +282,8 @@ text-shadow: 0 0 3px #f9ca24,0 0 10px #f9ca24;
     font-size: 2rem;
     color:#fff;
     background:var(--yellow);
+    box-shadow: 0 3px 0 #f9ca24 inset, 0 3px 20px 0 #f9ca24,
+                             0 3px 0 #f9ca24 inset, 0 3px 20px 0 #f9ca24;
 }
 
 .portfolio .box-container{
