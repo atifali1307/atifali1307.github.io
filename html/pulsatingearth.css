@@ -3,7 +3,7 @@ body
     margin: 0;
     padding: 0;
     height: 100vh;
-    background: url(bg.jpg);
+    background: url(images/bg.jpg);
     background-size: cover;
     animation: animateBg 60s linear infinite;
 }
@@ -15,7 +15,7 @@ body
     transform: translate(-50%,-50%);
     width: 200px;
     height: 200px;
-    background: url(earth.png);
+    background: url(images/earth.png);
     background-size: cover;
     animation: animateEarth 12s linear infinite;
     border-radius: 50%;
