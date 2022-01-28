@@ -98,11 +98,11 @@ header{
 }
 
 header .user img{
-    height:17rem;
-    width:17rem;
+    height:15rem;
+    width:15rem;
     border-radius: 50%;
     object-fit: cover;
-    margin-bottom: 1rem;
+    margin-bottom: 0.8rem;
     border:.7rem solid var(--yellow);
     box-shadow: 0 2px 0 #f9ca24 inset, 0 2px 20px 0 #f9ca24,
                              0 2px 0 #f9ca24 inset, 0 2px 20px 0 #f9ca24;
