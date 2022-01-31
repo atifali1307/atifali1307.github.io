@@ -441,6 +441,106 @@ text-shadow: 0 0 3px #f9ca24,0 0 10px #f9ca24;
     color:var(--yellow);
 }
 
+.contact .row .content .info ul{
+    list-style: none;
+    display: flex;
+    text-align: center;
+}
+
+.contact .row .content .info ul li{
+    position: relative;
+    display: block;
+    color: #fff;
+    font-size: 2.5rem;
+    width: 4.5rem;
+    background: #171515;
+    line-height: 4.5rem;
+    border-radius: 50%;
+    margin: 1.5rem 1rem;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+
+.contact .row .content .info ul li:before{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+   /* background: #d35400;  */
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    z-index: -1;
+    transform: scale(0.9);
+}
+
+.contact .row .content .info ul li:nth-child(1):before{
+    background: #426782;
+}
+
+.contact .row .content .info ul li:nth-child(2):before{
+    background: #1DA1F2;
+}
+
+.contact .row .content .info ul li:nth-child(3):before{
+    background: #E1306C;
+}
+
+.contact .row .content .info ul li:nth-child(4):before{
+    background: #2867B2;
+}
+
+.contact .row .content .info ul li:hover:before{
+    filter: blur(0.18rem);
+    transform: scale(1.2);
+  /*  box-shadow: 0 0 1rem #d35400;  */
+}
+
+.contact .row .content .info ul li:nth-child(1):hover:before{
+    box-shadow: 0 0 1rem #426782;
+
+}
+
+.contact .row .content .info ul li:nth-child(2):hover:before{
+    box-shadow: 0 0 1rem #1DA1F2;
+
+}
+
+.contact .row .content .info ul li:nth-child(3):hover:before{
+    box-shadow: 0 0 1rem #E1306C;
+
+}
+
+.contact .row .content .info ul li:nth-child(4):hover:before{
+    box-shadow: 0 0 1rem #2867B2;
+
+}
+
+.contact .row .content .info ul li:nth-child(1):hover{
+    color: #456cba;
+    box-shadow: 0 0 1rem #426782;
+    text-shadow: 0 0 1rem #426782;
+}
+
+.contact .row .content .info ul li:nth-child(2):hover{
+    color: #26a4f2;
+    box-shadow: 0 0 1rem #1DA1F2;
+    text-shadow: 0 0 1rem #1DA1F2;
+}
+
+.contact .row .content .info ul li:nth-child(3):hover{
+    color: #e23670;
+    box-shadow: 0 0 1rem #E1306C;
+    text-shadow: 0 0 1rem #E1306C;
+}
+
+.contact .row .content .info ul li:nth-child(4):hover{
+    color: #2a6cbb;
+    box-shadow: 0 0 1rem #2867B2;
+    text-shadow: 0 0 1rem #2867B2;
+}
+
 .top{
     position: fixed;
     bottom:7.5rem; right: 2rem;
