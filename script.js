@@ -1,3 +1,20 @@
+function github(){
+    window.open(
+        "https://github.com/atifali1307","_blank");
+}
+function twitter(){
+    window.open(
+        "https://twitter.com/atifali13072000","_blank");
+}
+function instagram(){
+    window.open(
+        "https://instagram.com/atifali1307/","_blank");
+}
+function lkdin(){
+    window.open(
+        "https://www.linkedid.com/in/atif-ali-033839203/","_blank");
+}
+
 $(document).ready(function(){
 
     $('#menu').click(function(){
